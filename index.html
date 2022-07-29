@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta property="og:title" content="bogongE - 프로필 링크">
+	<meta property="og:description" content="bogongE의 링크를 구경하자!">
+	<meta property="og:image" content="보구리.jpg">
+	<title>bogongE - 프로필 링크</title>
+	<style>
+		@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+		* {
+			font-family: "Pretendard",serif;
+		}
+		body{
+			background-color: #44398a;
+		}
+		.wrap{
+			width: 300px;
+			margin: 30px auto 0px;
+			display: flex; /* 안에 내용물을 정렬하고 싶을 때 사용 */
+			flex-direction: column; 
+			justify-content: center;
+			align-items: center;
+		}
+		.profile{
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			border: 2px solid #beb5f7;
+			background-image: url('보구리.jpg');
+			background-position: center;
+			background-size: cover;
+		}
+		.main, .sub{
+			color: #fff;
+			font-size: 20px;
+			margin: 30px 0 10px;
+		}
+		.sub{
+			font-size: 14px;
+			margin: 0 0 30px;
+		}
+		.wrap > a{
+			width: 300px;
+			height: 50px;
+			background-color: #fff;
+			border-radius: 8px;
+			margin-bottom: 10px;
+			font-size: 14px;
+			font-weight: bold;
+			color: #44398a;
+
+			display: flex; 
+			flex-direction: column; 
+			justify-content: center;
+			align-items: center;
+
+			text-decoration: none;
+			box-shadow: 3px 3px 5px 0px #000;
+		}
+		.wrap > a:hover{
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="profile"></div>
+		<h1 class="main">bogongE</h1>
+		<p class="sub">코딩이 재밌어요!</p>
+		<a target="_blank" href="https://haruharunbk.github.io/momentum/">Momentum</a>
+		<a target="_blank" href="https://haruharunbk.github.io/playlist/">Playlist</a>
+		<a target="_blank" href="https://haruharunbk.github.io/Todo_app_2022/">Todo App</a>
+		<a target="_blank" href="https://haruharunbk.github.io/landing_homecent/">Homecent 랜딩페이지</a>
+		
+	</div>
+</body>
+</html>
